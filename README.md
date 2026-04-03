@@ -8,6 +8,14 @@ https://finance-backend-aowh.onrender.com
 
 ## API Documentation
 
+https://docs.google.com/document/d/11NeQcZLpW6h7nEu3FCUfkVu_Rml1PzGdWIxMdXPa3hA/edit?usp=sharing
+
+Quick Test
+Use Postman or browser:
+
+GET /api/records  
+GET /api/summary/income
+
 ## Features
 
 - User and Role Management (Admin, Analyst, Viewer)
