@@ -103,8 +103,6 @@ Focused more on backend logic rather than authentication layer
 
 - JWT Authentication (secure auth instead of header-based roles)
 - Advanced search optimization (full-text search, indexing)
-- Swagger API documentation
-- Unit & integration testing
 
 ## Important Note
 
