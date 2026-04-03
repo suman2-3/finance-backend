@@ -15,9 +15,6 @@ app.get("/", (req, res) => {
 
 // Port
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
@@ -40,6 +37,7 @@ app.use("/records", recordRoutes);
 const summaryRoutes = require("./routes/summaryRoutes");
 app.use("/summary", summaryRoutes);
 
+//error handler 
 const errorHandler = require("./middleware/errorHandler");
 
 // after all routes

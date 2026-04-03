@@ -18,14 +18,14 @@ const checkRole = (allowedRoles) => {
         return res.status(404).json({ message: "User not found" });
       }
 
-      // ✅ STATUS CHECK
+      // Status Check 
       if (user.status === "inactive") {
         return res.status(403).json({
           message: "User is inactive",
         });
       }
 
-      // ✅ ROLE CHECK
+      // Role check 
       if (!allowedRoles.includes(role)) {
         return res.status(403).json({
           message: "Access Denied",

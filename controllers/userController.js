@@ -4,7 +4,7 @@ exports.createUser = async (req, res) => {
   try {
     const { name, email, role } = req.body;
 
-    // ✅ VALIDATION
+    // Validation
     if (!name || !email) {
       return res.status(400).json({
         error: "Name and email are required",
